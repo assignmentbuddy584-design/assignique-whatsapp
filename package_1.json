@@ -1,0 +1,17 @@
+{
+  "name": "assignique-whatsapp-webhook",
+  "version": "1.0.0",
+  "description": "WhatsApp Business API webhook for Assignique auto-replies",
+  "main": "whatsapp_webhook.js",
+  "scripts": {
+    "start": "node whatsapp_webhook.js",
+    "dev": "node whatsapp_webhook.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2"
+  }
+}
